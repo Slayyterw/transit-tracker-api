@@ -29,7 +29,7 @@ services:
     # volumes:
     #   - "./feeds.yaml:/app/feeds.yaml"
     ports:
-      - "3000:3000"
+      - "3001:3000"
 
   postgres:
     image: postgres:17
